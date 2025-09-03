@@ -12,6 +12,7 @@ const App = () => {
   const [id, setId] = useState(null)
 
   function localData(data) {
+    console.log("hello")
     if (id === null) {
       const newData = {
         // id:Date.now(),
